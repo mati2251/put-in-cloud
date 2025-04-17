@@ -15,3 +15,6 @@ packet_count: packet_count.c
 
 arping: arping.c
 	gcc arping.c -o arping
+
+change_route: change_route.c
+	gcc change_route.c -o change_route
