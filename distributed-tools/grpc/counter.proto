@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Counter { int32 value = 1; }
+
+service CounterService {
+  rpc up(Counter) returns (Counter);
+  rpc down(Counter) returns (Counter);
+}
