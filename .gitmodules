@@ -1,3 +1,9 @@
 [submodule "network-programming/dns-spoofing"]
 	path = dns-spoofing
 	url = https://github.com/mati2251/dns-spoofing
+[submodule "distributed-monitor"]
+	path = distributed-monitor
+	url = git@github.com:mati2251/distributed-monitor.git
+[submodule "res"]
+	path = res
+	url = git@github.com:mati2251/res.git
