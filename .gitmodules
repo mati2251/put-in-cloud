@@ -7,3 +7,6 @@
 [submodule "res"]
 	path = res
 	url = git@github.com:mati2251/res.git
+[submodule "ddhondt"]
+	path = ddhondt
+	url = git@github.com:mati2251/ddhondt.git
