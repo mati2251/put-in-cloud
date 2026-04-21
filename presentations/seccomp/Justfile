@@ -1,0 +1,23 @@
+build:
+    typst compile presentation.typ presentation.pdf
+
+demo_strict:
+    gcc -o demo_strict demo_strict.c
+
+demo_bpf:
+    gcc -o demo_bpf demo_bpf.c
+
+tcpdump_filter:
+    tcpdump -d 'tcp and port 80'
+
+tcpdump_filter_c:
+    tcpdump -dd 'tcp and port 80'
+
+demo_seccomp_bpf:
+    gcc -o demo_seccomp_socket demo_seccomp_socket.c
+
+hello:
+    gcc -static -o hello hello.c
+
+demo_seccomp_notify:
+    go build -o demo_seccomp_notify demo_seccomp_notify.go
